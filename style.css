@@ -31,7 +31,8 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  height: 500px;
+  padding-top: 125px;
+  padding-bottom: 125px;
   flex-direction: column;
 }
 .page-1-intro span {
@@ -112,4 +113,71 @@ h1 {
 .telegram {
   width: 70px;
   height: 50px;
+}
+
+@media (max-width: 400px) {
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+  }
+  .container .header h1 {
+    font-size: 30px;
+  }
+  .page-1-intro {
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .page-1-intro h1 {
+    font-size: 20px;
+  }
+  .page-1-intro span {
+    font-size: 18px;
+  }
+  .page-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    padding: 0px 0px;
+    gap: 20px;
+  }
+  .container .page-1 .right img {
+    width: 300px;
+    height: 300px;
+  }
+  .right {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .page-2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .page-2-image img {
+    width: 100%;
+    height: 300px;
+  }
+  .page-2-comment span h1 {
+    font-size: 20px;
+  }
+  footer {
+    padding: 10px 10px;
+  }
+  .links {
+    margin-top: 10px;
+  }
+  .button {
+    width: 40px;
+    height: 20px;
+  }
+  .logo {
+    width: 40px;
+    height: 20px;
+  }
 }
