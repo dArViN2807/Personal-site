@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 120px 0px;
+  background-image: url(./Bcground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header h1 {
+  color: white;
+  font-size: 50px;
+}
+.page-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding-bottom: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.page-1-intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+}
+.page-1-intro span {
+  color: gold;
+  font-size: 30px;
+}
+.page-1-intro h1 {
+  color: white;
+  font-size: 40px;
+}
+.page-1-intro span b {
+  color: white;
+}
+.page-1 .right {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.page-1 .right img {
+  height: 500px;
+}
+.page-1 .right .img2 {
+  height: 500px;
+  width: 450px;
+}
+.page-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.page-2-image img {
+  height: 400px;
+  width: 300px;
+}
+.page-2-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+.page-2-comment span {
+  color: white;
+}
+.page-3 {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+.button {
+  width: 80px;
+  height: 50px;
+  background-color: transparent;
+}
+.logo {
+  width: 100%;
+  height: 50px;
+  color: white;
+}
+.links {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: transparent;
+}
+.telegram {
+  width: 70px;
+  height: 50px;
+}
